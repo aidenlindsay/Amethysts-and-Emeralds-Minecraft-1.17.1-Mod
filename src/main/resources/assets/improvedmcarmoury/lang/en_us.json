@@ -1,6 +1,8 @@
 {
-  "item.improvedmcarmoury.amethyst_axe": "Reinforced Amethyst Axe",
-  "item.improvedmcarmoury.amethyst_shovel": "Reinforced Amethyst Shovel",
+  "item.improvedmcarmoury.amethyst_axe": "Amethyst Axe",
+  "item.improvedmcarmoury.amethyst_shovel": "Amethyst Shovel",
+  "item.improvedmcarmoury.amethyst_sword": "Amethyst Sword",
+
   "item.improvedmcarmoury.iron_bar": "Iron Bar",
 
   "itemGroup.modtab": "Mod Items"
