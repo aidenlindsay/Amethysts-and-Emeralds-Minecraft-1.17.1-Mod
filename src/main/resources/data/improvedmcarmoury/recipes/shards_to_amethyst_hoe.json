@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " /",
+    " /"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "/": {
+      "item": "improvedmcarmoury:iron_bar"
+    }
+  },
+  "result": {
+    "item": "improvedmcarmoury:amethyst_hoe",
+    "count": 1
+  }
+}
