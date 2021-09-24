@@ -43,20 +43,20 @@ public class ItemInit {
 
 
     //Armour
-    public static final RegistryObject<Item> CACTUS_HELMET = ITEMS.register("cactus_helmet",
-            () -> new ArmorItem(ModArmorMaterial.CACTUS, EquipmentSlot.HEAD, new Item.Properties()
+    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
+            () -> new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlot.HEAD, new Item.Properties()
             .tab(Main.MOD_GROUP)));
 
-    public static final RegistryObject<Item> CACTUS_CHESTPLATE = ITEMS.register("cactus_chestplate",
-            () -> new ArmorItem(ModArmorMaterial.CACTUS, EquipmentSlot.CHEST, new Item.Properties()
+    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlot.CHEST, new Item.Properties()
                     .tab(Main.MOD_GROUP)));
 
-    public static final RegistryObject<Item> CACTUS_LEGGINGS = ITEMS.register("cactus_leggings",
-            () -> new ArmorItem(ModArmorMaterial.CACTUS, EquipmentSlot.LEGS, new Item.Properties()
+    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
+            () -> new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlot.LEGS, new Item.Properties()
                     .tab(Main.MOD_GROUP)));
 
-    public static final RegistryObject<Item> CACTUS_BOOTS = ITEMS.register("cactus_boots",
-            () -> new ArmorItem(ModArmorMaterial.CACTUS, EquipmentSlot.FEET, new Item.Properties()
+    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
+            () -> new ArmorItem(ModArmorMaterial.EMERALD, EquipmentSlot.FEET, new Item.Properties()
                     .tab(Main.MOD_GROUP)));
 
 
@@ -121,8 +121,8 @@ public class ItemInit {
 
     public enum ModArmorMaterial implements ArmorMaterial {
 
-        CACTUS(Main.MOD_ID + ":test", 5, new int[] {7, 9, 11, 7},  420, SoundEvents.CAVE_VINES_BREAK, 6.9f,
-                () -> { return Ingredient.of(Items.CACTUS); }, 10);
+        EMERALD(Main.MOD_ID + ":test", 5, new int[] {7, 9, 11, 7},  420, SoundEvents.NETHER_ORE_BREAK, 6.9f,
+                () -> { return Ingredient.of(Items.EMERALD); }, 10);
 
         private static final int[] MAX_DAMAGE_ARRAY = new int[] {16, 16, 16, 16};
         private final String name;
